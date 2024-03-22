@@ -21,3 +21,20 @@ const data = {
 
   container.append(createInfo(titleOne, titleTwo, paragraphOne, paragraphTwo, buttonOne, buttonTwo, buttonThree, buttonFour,myImage))
   container.append(createImage(myImage))
+
+
+let btns1 = document.getElementById('btn1').addEventListener('click', () =>{
+  alert('Arigato osaimaso')
+})
+
+let btns2 = document.getElementById('btn2').addEventListener('click', () =>{
+  alert('Arigato osaimaso')
+})
+
+let btns3 = document.getElementById('btn3').addEventListener('click', () =>{
+  alert('Arigato osaimaso')
+})
+
+let btns4 = document.getElementById('btn4').addEventListener('click', () =>{
+  alert('Arigato osaimaso')
+})
