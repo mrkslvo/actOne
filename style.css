@@ -11,9 +11,9 @@ body{
 }
 
 img{
-    width: 400px;
+    width: 550px;
     border-radius: 10px;
-    border: 1px solid rgb(243, 126, 243);
+    border: 2px solid rgb(243, 126, 243);
 }
 
 .container{
@@ -23,15 +23,20 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10rem;
-    gap: 5rem;
+    padding: 0 5rem;
+    gap: 2rem;
 }
 
 h1{
     font-size: 1.5rem;
-    margin: 10px;
+    margin: 15px 0px;
     color: rgb(243, 126, 243);
     text-align: start;
+}
+
+.right{
+    width: 45%;
+    padding: 10px;
 }
 
 
@@ -43,9 +48,8 @@ h1{
 .right div{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+    justify-content: start;
+    column-gap: 1.2rem;
 }
 
 .right button{
@@ -55,9 +59,9 @@ h1{
     font-size: .9rem;
     padding: 8px 0;
     border-radius: 5px;
-    width: 100%;
     font-weight: bold;
     transition: all .5s;
+    width: 15%;
     cursor: pointer;
 }
 
@@ -65,4 +69,5 @@ h1{
     background-color: rgb(243, 126, 243);
     color: rgb(37,0,37);
     border-color: rgb(37,0,37);
+    transform: scale(1.2);
 }
